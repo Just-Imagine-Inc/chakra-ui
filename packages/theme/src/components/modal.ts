@@ -25,8 +25,8 @@ const modal = multiStyleConfig({
         borderRadius: "md",
         bg: mode("white", "gray.700")(props),
         color: "inherit",
-        my: "3.75rem",
-        maxH: scrollBehavior === "inside" ? "calc(100vh - 7.5rem)" : undefined,
+        // my: "3.75rem",
+        // maxH: scrollBehavior === "inside" ? "calc(100vh - 7.5rem)" : undefined,
         boxShadow: mode("lg", "dark-lg")(props),
       },
 
